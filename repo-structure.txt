@@ -1,0 +1,41 @@
+project-root/
+├── cmd/
+│   └── server/
+│       └── main.go
+├── internal/
+│   ├── api/
+│   │   ├── handlers/
+│   │   ├── middleware/
+│   │   └── routes.go
+│   ├── scraper/
+│   │   ├── cheerio.go
+│   │   ├── beautifulsoup.go
+│   │   └── interface.go
+│   ├── parser/
+│   │   ├── markdown.go
+│   │   └── json.go
+│   └── cache/
+│       └── cache.go
+├── pkg/
+│   └── utils/
+│       └── helpers.go
+├── sdks/
+│   ├── nodejs/
+│   │   ├── src/
+│   │   ├── tests/
+│   │   └── package.json
+│   └── python/
+│       ├── scraper/
+│       ├── tests/
+│       └── setup.py
+├── tests/
+│   ├── unit/
+│   └── integration/
+├── deployments/
+│   └── dockerfile
+├── docs/
+│   ├── API.md
+│   └── SDKs.md
+├── go.mod
+├── go.sum
+└── README.md
